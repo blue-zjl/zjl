@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh=cn">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>我的第一个网站</title>
+        <link rel="stylesheet" href="./css/index.css">
+        <style>
+            ul li{list-style: none;}
+	        html{
+	            height: 100%;
+            }
+	        body {
+	            background-color: black;
+	            width: 100%;
+	        }
+        </style>
+    </head>
+    <body class="fix">
+        <!--头部登录--收藏-->
+        <header>
+            <div class="hd-top">
+                <div class="wp">
+                    <div class="left">
+                        <a href=""><img src="./images/icon-star.png">收藏嘟嘟</a>
+                    </div>
+                    <div class="right">
+                       <span>欢迎来到嘟嘟装饰!</span>
+                        <a href=""><img src="./images/xinlang.png">嘟嘟家装博客</a>
+                        <em>|</em>
+                        <a href=""><img src="./images/02.png" alt="微信">微信<img src="./images/03.png"></a>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <div class="hd-buttom">
+                <div class="wp">
+                    <div class="left">
+                        <div class="logo">
+                            <a href="javascript:;"><img src="./images/05.png" class="on-off"></a>
+                            <div class="logo-text">
+                                <span>重质量赢客户，以口碑传都都</span>
+                            </div>
+                             <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <span>18903388766</span><br>
+                        <em>没有固定时间，看心情。</em>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </header>
+        <!--end-->
+        <!--头部菜单导航-->
+        <nav>
+            <div class="wp">
+                <ul class="fix">
+                   <li><a href="">首页</a></li>
+                   <li class="on"><a href="">整体家装</a></li>
+                   <li>
+                       <a href="">装修案例
+                       </a>
+                   </li>
+                   <li><a href="" >设计明星</a>
+                            <dl>
+                               <dd><a href="">菜单一</a></dd>
+                               <dd><a href="">菜单二</a></dd>
+                               <dd><a href="">菜单三</a></dd>
+                           </dl>
+                    </li>
+                   <li><a href="">走进嘟嘟</a>
+                           <dl>
+                               <dd><a href="">菜单一</a></dd>
+                               <dd><a href="">菜单二</a></dd>
+                               <dd><a href="">菜单三</a></dd>
+                           </dl>
+                   </li>
+                   <li><a href="">服务规范</a>
+                    <dl>
+                               <dd><a href="">菜单一</a></dd>
+                               <dd><a href="">菜单二</a></dd>
+                               <dd><a href="">菜单三</a></dd>
+                           </dl>
+                   </li>
+                   <li><a href="">施工管理</a>
+                          <dl>
+                               <dd><a href="">菜单一</a></dd>
+                               <dd><a href="">菜单二</a></dd>
+                               <dd><a href="">菜单三</a></dd>
+                           </dl>
+                   </li>
+                   <li><a href="">在线服务</a>
+                            <dl>
+                               <dd><a href="">菜单一</a></dd>
+                               <dd><a href="">菜单二</a></dd>
+                               <dd><a href="">菜单三</a></dd>
+                           </dl>
+                   </li>
+                </ul>
+            </div>
+                          
+        </nav>
+        <!--end-->
+        <!--案例展示-->
+        <div class="banner">
+            <div id="slideBox" class="slideBox">
+                <div class="hd">
+                    <ul><li></li><li></li><li></li></ul>
+                </div>
+                <div class="bd">
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="images/banner.jpg" /></a></li>
+                        <li><a href="#" target="_blank"><img src="images/banner1.jpg" /></a></li>
+                        <li><a href="#" target="_blank"><img src="images/banner.jpg" /></a></li>
+                    </ul>
+                </div>
+                <a class="prev" href="javascript:void(0)"></a>
+                <a class="next" href="javascript:void(0)"></a>
+    	    </div>
+        </div>
+<!--         
+        <script src="./js/jquery.js"></script>
+        <script src="./js/SuperSlide.js"></script>
+        
+        <script>
+                jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+        </script>
+
+        <script>
+            $(document).ready(function(){
+                $("nav ul li").hover(function(){
+                $(this).find("dl").stop(true,true).slideDown(300);  
+                },function(){
+                    $(this).find("dl").stop(true,true).slideUp(300);
+                });
+                $(".ul-pro li a").hover(function(){
+                    $(this).addClass("on").siblings().removeClass("on");
+                },function(){});
+            })
+            
+        </script> -->
+ 
+
+        <!--<section class="banner">
+            <img src="./images/banner.jpg" alt="" id="img">
+            
+        </section>-->
+        
+        <!--banner的底部文字-->
+        <div class="banner-buttom">
+            <div class="wp">
+                  <span>您所在的位置 :</span>  
+                <a href="">首页</a> >
+                 <a href="">  装修案例</a>    
+            </div>
+        </div>
+        
+        <div class="clear"></div>  
+        <div class="h45"></div>
+        <div class="main">
+            <div class="wp fix">
+                   <!--左边-->
+                <div class="pro-info">
+                    <!--头部的列表-->
+                    <div class="top">
+                        <ul class="ul-pro">
+                            <li>                         
+                                <span> 装修风格 :</span>  
+                                <a href="#" class="on" >全部</a>
+                                <a href="#">现代简约</a>
+                                <a href="#">田园</a>
+                                <a href="#">欧式</a>
+                                <a href="#">中式</a>
+                                <a href="#">地中海</a>
+                                <a href="#">混搭</a>
+                                <a href="#">美式乡村</a>
+                                <a href="#">其他</a>                                                        
+                            </li>
+                            
+                            <li>
+                            
+                                <span> 装修风格 :</span>  
+                                <a href="#" class="on" >全部</a>
+                                <a href="#">现代简约</a>
+                                <a href="#">田园</a>
+                                <a href="#">欧式</a>
+                                <a href="#">中式</a>
+                                <a href="#">地中海</a>
+                                <a href="#">混搭</a>
+                                <a href="#">美式乡村</a>
+                                <a href="#">其他</a>                                                        
+                            </li>
+    
+                            <li>
+                            
+                                <span> 装修风格 :</span>  
+                                <a href="#" class="on" >全部</a>
+                                <a href="#">现代简约</a>
+                                <a href="#">田园</a>
+                                <a href="#">欧式</a>
+                                <a href="#">中式</a>
+                                <a href="#">地中海</a>
+                                <a href="#">混搭</a>
+                                <a href="#">美式乡村</a>
+                                <a href="#">其他</a>                                                        
+                            </li>                       
+                        </ul>
+                     </div>
+                     <!--中间部分-->
+                    <div class="case-list">
+                        <div class="tit-a1 fix">
+                            <strong>案例列表</strong>
+                            <div class="so fix">
+                                <input type="text" name=""
+                                                    onfocus="if(this.value='查找您想要的案例'){this.value='';}" 
+                                                    onblur="if(!this.value){this.value=this.defaultValue;}"
+                                value="查找您想要的案例">
+                                <!--placeholder="查找您想要的案例"-->
+                                <input type="submit" name="" value="" class="sub-inp">
+                                
+                                <!--placeholder占位符，但是无法控制颜色-->
+                                
+                            </div>
+                            <div class="clear"></div> 
+                        </div>
+                        <!--图片列表-->
+                        <div class="cut">                                                    
+                            <ul class="ul-casePic fix">                                
+                                <li class="s1">
+                                    <a href="">
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+                                </li>
+                                
+                                <li class="s2">
+                                    <a href="">
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+                                </li>
+                                
+                                <li class="s3">
+                                    <a href="" >
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+                                </li>
+                                
+                                <li class="s4">
+                                    <a href="" >
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>   
+                                </li>
+                                                          
+                                <li>
+                                    <a href="">
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+
+                                </li>
+                                                                
+                                <li>
+                                    <a href="" >
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+                                </li>
+                              
+                                
+                                <li>
+                                    <a href="" >
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+
+                                </li>
+                                
+                                <li>
+                                    <a href="">
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+
+                                </li>
+                                
+                                <li>
+                                    <a href="" >
+                                        <img src="images/case-pic1.png" alt="">
+                                        <h4>港湾家园</h4>
+                                        <span>公寓-欧式风格</span>
+                                    </a>
+
+                                </li>
+                            </ul>                        
+                        </div>
+                    </div>
+                    <div class="pages">
+                        <ul>
+                            <li><a href="javascript:;">上一页</a></li>
+                            <li><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">4</a></li>
+                            <li><a href="">下一页</a></li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+               
+                <!--右边-->
+                <div class="pro-hot">
+                    <!--标题头部+图片列表-->
+                    <div class="c1">
+                          <div class="pro-hot-top fix">
+                        <div class="pro-top1 fix">
+                            <strong>热装小区</strong>
+                            <a href="">查看全部</a>
+                        </div>
+                        
+                            <ul class="ul-hot fix">
+                                <li>
+                                   <a href=""><img src="images/pro-top201.png" alt=""></a> 
+                                    <div class="info">
+                                        <strong>港湾家园</strong>
+                                        <p>公寓-欧式风格</p>
+                                        <a href="">查看案例</a>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                   <a href=""><img src="images/pro-top201.png" alt=""></a> 
+                                    <div class="info">
+                                        <strong>港湾家园</strong>
+                                        <p>公寓-欧式风格</p>
+                                        <a href="">查看案例</a>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                   <a href=""><img src="images/pro-top201.png" alt=""></a> 
+                                    <div class="info">
+                                        <strong>港湾家园</strong>
+                                        <p>公寓-欧式风格</p>
+                                        <a href="">查看案例</a>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                   <a href=""><img src="images/pro-top201.png" alt=""></a> 
+                                    <div class="info">
+                                        <strong>港湾家园</strong>
+                                        <p>公寓-欧式风格</p>
+                                        <a href="">查看案例</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                  
+                        <!--联系我们及二维码-->
+                    <div class="pro-hot-bottom">                        
+                        <div class="contact">
+                            <div class="mes-pi">
+                                <h3>咨询预约</h3>
+                                <p>Enquire Book</p>
+                            </div>
+                            <a href="">联系我们
+                                <img src="images/r.png" alt="">
+                            </a>
+                        </div>
+                        
+                    </div>                    
+               </div>
+            </div>
+                
+       </div>
+            
+        <footer>
+            <div class="fd-info">
+                <div class="wp fix">
+                    <div class="left fix">
+                        <div class="l fix">
+                            <h3>服务热线： <br>
+                                 <strong>110</strong>
+                            </h3>
+                            <p style="margin-bottom:16px;">
+                                TEL：13933348678　<br>
+                                E-MAIL：1347344401@qq.com　<br>
+                                ADDRESS：河北省石家庄鹿泉区劳动关系职业学校 <br>
+                            </p> 
+                           
+                            <p> 友情链接：
+                                <a href="">19楼</a>&nbsp
+                                <a href="">保障网 </a>&nbsp
+                                <a href=""> 装修第一网 </a>&nbsp
+                                <a href="">微博</a>
+                           </p>
+                        </div>
+                        <div class="r">
+                        </div>
+                    </div>
+                    
+                    <div class="right fix">
+                        <div class="spe fix">
+                             <dl class="dl-first">
+                                <dt>整体家装</dt>
+                                <dd><a href="">899套装</a> <br>
+                                    <a href="">1080套装</a> <br>
+                                    <a href="">装修案例</a> <br>
+                                    <a href="">明星设计</a> <br>
+                                </dd>
+                             </dl>
+                        
+                        </div>
+                       
+                            <dl>
+                                <dt>走进嘟嘟</dt>
+                                <dd>
+                                    <a href="">企业简介</a>
+                                    <a href="">品牌荣誉</a>
+                                    <a href="">企业文化</a>
+                                    <a href="">品牌历程</a>
+                                    <a href="">新闻中心</a>                                                          
+                                </dd>
+                            </dl>
+                            
+                             <dl>
+                                <dt>服务规范</dt>
+                                <dd>
+                                    <a href="">施工流程</a>
+                                    <a href="">标准工艺</a>
+                                    <a href="">售后保障</a>                                                       
+                                </dd>
+                            </dl>
+                            
+                            
+                            <dl>
+                                <dt>施工管理</dt>
+                                <dd>
+                                    <a href="">在建工地</a>                                                      
+                                </dd>
+                            </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-copy">
+                <div class="wp fix">
+                    <div class="left">
+                            <img src="images/bottom2.png" alt="">
+                        </p>
+                    </div>
+                    <div class="right">                  
+                         <a href="">网站地图</a>
+                         <a href="">法律声明</a>
+                         <a href="">联系我们</a>
+                         <a href="">版权信息</a>
+                    </div>
+            </div>         
+            <div class="clear"></div>
+                        </div>
+                   </div>
+                   
+                </div>
+            </div>
+          
+        </footer>
+    </body>
+   
+</html>
+
+
+
